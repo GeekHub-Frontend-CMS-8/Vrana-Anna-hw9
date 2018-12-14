@@ -1,0 +1,12 @@
+@import "variables";
+
+.title-of-the-site {
+  margin: 0;
+  padding: 10px;
+  color: $secondary-color;
+  font-family: $primary-font-family;
+  font-size: 36px;
+  font-weight: $primary-font-weight;
+  line-height: 40px;
+  text-transform: capitalize;
+}

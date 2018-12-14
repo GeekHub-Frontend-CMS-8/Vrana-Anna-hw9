@@ -1,0 +1,16 @@
+@import "variables";
+
+
+
+.button {
+  border-radius: 25px;
+  border: 1px solid $secondary-color;
+  padding: 15px 25px;
+  color: $secondary-color;
+  font-family: $primary-font-family;
+  font-size: 13px;
+  font-weight: $primary-font-weight;
+  text-transform: uppercase;
+  background-color: transparent;
+
+}

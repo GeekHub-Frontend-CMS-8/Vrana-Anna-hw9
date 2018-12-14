@@ -1,0 +1,12 @@
+@import "variables";
+
+.title-text {
+  margin: 0;
+  max-width: 625px;
+  padding: 25px 0;
+  color: $secondary-color;
+  font-family: $secondary-font-family;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+}

@@ -1,0 +1,32 @@
+@import "variables";
+@import "container";
+@import "top-section";
+@import "site-navigation";
+@import "title-of-the-site";
+@import "title-text";
+@import "button-container";
+@import "button";
+@import "arrow-down";
+@import "background-wrapper";
+@import "section-container";
+@import "title-of-the-section";
+@import "under-title-text";
+@import "skill-container";
+
+.test-class {
+  color: blueviolet;
+  transition: background-color 1s ease-in;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+
+  &:hover{
+    background-color: black;
+  }
+
+  p {
+    color: red;
+    font-size: 25px;
+  }
+
+  }
