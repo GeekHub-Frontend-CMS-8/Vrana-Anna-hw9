@@ -1,5 +1,9 @@
 .section-container {
   padding: 100px 0;
-  min-width: auto;
-  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
 }

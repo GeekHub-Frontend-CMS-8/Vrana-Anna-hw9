@@ -5,13 +5,8 @@
   overflow: hidden; }
 
 .top-section-wrapper {
-  background: url("../img/bg-top.png") center;
+  background: linear-gradient(rgba(41, 50, 60, 0.75), rgba(41, 50, 60, 0.75)), url("../img/bg-top.png") center;
   background-size: cover; }
-
-.header {
-  padding: 35px 0;
-  display: flex;
-  justify-content: space-between; }
 
 .hero-container {
   padding: 200px 0 90px 0;
@@ -32,6 +27,11 @@
 @media only screen and (min-width: 1440px) {
   .hero-container {
     padding: 200px 0; } }
+
+.header {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between; }
 
 .link {
   color: #e8e8e8;
@@ -114,7 +114,7 @@
   text-decoration: none;
   border: 1px solid #e8e8e8;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 14px;
   color: #e8e8e8; }
 
 .background-wrapper {
@@ -122,8 +122,12 @@
 
 .section-container {
   padding: 100px 0;
-  min-width: auto;
-  max-width: 1170px; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box; }
 
 .title-of-the-section {
   margin: 0;
@@ -141,17 +145,43 @@
 .under-title-text {
   margin: 0;
   padding: 15px 0;
+  position: relative;
   text-align: center;
   color: #29323c;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px; }
+  .under-title-text::after {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    width: 40px;
+    height: 2px;
+    border-bottom: 2px solid #29323c;
+    content: ""; }
 
 .skill-container {
+  max-width: 270px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  list-style: none; }
+
+.background-icon {
+  width: 120px;
+  height: 120px;
+  background-image: radial-gradient(circle 60px at center, #485563 0%, #29323c 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.fas {
+  color: #e8e8e8;
+  font-size: 50px; }
 
 .test-class {
   color: blueviolet;

@@ -1,6 +1,7 @@
 @import "variables";
 @import "container";
 @import "top-section";
+@import "header";
 @import "site-navigation";
 @import "title-of-the-site";
 @import "title-text";
@@ -9,9 +10,9 @@
 @import "arrow-down";
 @import "background-wrapper";
 @import "section-container";
-@import "title-of-the-section";
-@import "under-title-text";
+@import "main-header";
 @import "skill-container";
+
 
 .test-class {
   color: blueviolet;

@@ -1,7 +1,10 @@
 @import "variables";
 
 .top-section-wrapper  {
-  background: /*linear-gradient(to right, #485563 0%, #29323c 100%),*/url("../img/bg-top.png") center;
+  background: linear-gradient(
+                  rgba(41, 50, 60, 0.75),
+                  rgba(41, 50, 60, 0.75)
+  ), url("../img/bg-top.png") center;
   background-size: cover;
   //.color-overlay {
   //  width: 100%;
@@ -10,12 +13,6 @@
   //  opacity: 0.9;
   //  position: relative;
   //}
-}
-
-.header {
-  padding: 35px 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .hero-container {
